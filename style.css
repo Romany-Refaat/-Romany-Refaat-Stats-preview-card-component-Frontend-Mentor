@@ -14,9 +14,11 @@ body {
     box-sizing: border-box;
     font-size: rem(15 / 10);
     background-color: hsl(233, 47%, 7%);
-    position: absolute;
-    left: 5%;
-    top: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
 }
 
 .main {
